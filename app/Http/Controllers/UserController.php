@@ -12,7 +12,7 @@ Class UserController extends Controller {
     }
     public function getUsers(){
         $users = User::all();
-        //$users = DB: :connection('batal_sia1');
+        //$users = DB: :connection('yamba_sia1');
         //select("Select * from tbluser");
  
         return $this->successResponse($users);
